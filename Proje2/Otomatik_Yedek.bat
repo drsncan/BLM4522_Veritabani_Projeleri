@@ -1,0 +1,1 @@
+sqlcmd -S localhost\SQLEXPRESS -E -Q "BACKUP DATABASE AdventureWorks2025 TO DISK='C:\Users\drsncan\Desktop\SQLBackups\AdventureWorks_Auto_GorevZamanlayici.bak' WITH INIT"
