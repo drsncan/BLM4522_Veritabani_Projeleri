@@ -20,4 +20,4 @@ Sırasıyla FULL yedek (NORECOVERY) ve ardından DIFFERENTIAL yedek (RECOVERY) u
 ## 4. Alternatif Otomasyon: Windows Task Scheduler (Express Çözümü)
 Sistemde SQL Server Express sürümü kurulu olduğundan SQL Server Agent kullanılamamıştır. Bu kısıtlamayı aşmak amacıyla, `sqlcmd` aracı kullanılarak bir Batch (.bat) scripti yazılmış ve bu script **Windows Görev Zamanlayıcı (Task Scheduler)** üzerinden her gece 00:00'da tetiklenecek şekilde ayarlanmıştır. Bu sayede otomasyon süreci alternatif bir mimariyle başarıyla tamamlanmıştır.
 
-![Alternatif Otomasyon](Görev_Zamanlayici_Resmi.png)
+![Alternatif Otomasyon](Gorev_Zamanlayici_Resmi.png)
