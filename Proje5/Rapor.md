@@ -24,3 +24,15 @@ Geçici tablodaki kirli veriler, T-SQL fonksiyonları (CTE, TRY_CONVERT, ROW_NUM
 Temizlenen, doğrulanan ve tekilleştirilen bu veriler başarılı bir şekilde asıl `Musteri_Hedef` tablosuna aktarılmıştır (Load).
 
 ![Temiz Veri Seti](Temiz_Veri_Seti.png)
+
+## 3. Veri Kalitesi Raporu
+ETL sürecinin sonucunda, kaynak sistemden gelen verilerin kalite oranını ölçmek amacıyla bir özet rapor oluşturulmuştur. 
+
+Mevcut Staging ve Hedef tabloları üzerinden yapılan analiz sonucunda:
+* **Toplam Gelen Kayıt:** 6
+* **Standartlara Uyan (Yüklenen):** 1
+* **Kalite Filtresine Takılan (Reddedilen):** 5
+
+Bu rapor, uygulanan Transform ve Load kurallarının (Tarih validasyonu, E-posta doğrulama, Tekilleştirme) veritabanı bütünlüğünü korumada ne kadar kritik bir rol oynadığını kanıtlamaktadır.
+
+![Veri Kalitesi Raporu](Kalite_Raporu.png)
