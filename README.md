@@ -31,3 +31,39 @@ Bu projede, büyük veri kümelerinin analitik sistemlere aktarılmadan önce ge
 
 ---
 *Bu projeler akademik amaçlı geliştirilmiştir.*
+
+---
+
+# 🎓 Final Projeleri
+
+Aşağıdaki projeler ders kapsamında final değerlendirmesi için geliştirilmiştir.
+
+## 🌐 Proje 1
+
+▶️ Video: https://youtu.be/utV2cu6q9DI
+
+---
+
+## ⚙️ Proje 3
+
+▶️ Video: https://youtu.be/vRtb6UTMGIk
+
+---
+
+## 📊 Proje 7
+
+▶️ Video: https://youtu.be/E9DrIFAe2xg
+
+---
+
+## 📂 GitHub Deposu
+
+Tüm veritabanı projelerine aşağıdaki depodan ulaşabilirsiniz:
+
+https://github.com/drsncan/BLM4522_Veritabani_Projeleri
+
+---
+
+### Not
+
+Bu depodaki **Proje 2** ve **Proje 5** içerikleri **Vize Projeleri**, yukarıda eklenen **Proje 1**, **Proje 3** ve **Proje 7** içerikleri ise **Final Projeleri** kapsamında hazırlanmıştır.
